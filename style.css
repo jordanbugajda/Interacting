@@ -1,0 +1,69 @@
+body {
+	color: black;
+	background: white;
+	font-family: 'Petit Formal Script', cursive;;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+	font-size: 30px;
+	overflow: hidden;
+	transition: all 1s ease;
+}
+.night {
+	color: white;
+	background: black;
+}
+img {
+	max-width: 100%;
+	height: auto;
+}
+main {
+	padding: 1em;	
+}
+a {
+	color: inherit;
+	text-decoration: none;
+}
+button {
+	color: inherit;
+	border: 2px solid;
+	background-color: transparent;
+	outline: none;
+	border-radius: 0;
+	padding: 0.5em;
+	text-transform: uppercase;
+	font-weight: bold;
+	margin: 1em auto;
+	cursor: pointer;
+}
+.content {
+	display: inline-block;
+	margin: 1em auto;
+	position: relative;
+	width: 70vmin;
+	height: 70vmin;
+}
+img {
+	position: absolute;
+	top: 0;
+	left: 50%;
+    display: block;
+    width: 100%;
+    height: auto;
+    margin: 0 auto;
+    transform: translateX(-50%) translateY(0);
+    transition: all 1s ease;
+}
+.moon {
+    width: 40vmin;
+    transform: translateX(-50%) translateY(100vh);
+}
+.night .sun {
+	transform: translateX(-50%) translateY(100vh);
+}
+.night .moon {
+	transform: translateX(-50%) translateY(0);
+}
+
+
+
